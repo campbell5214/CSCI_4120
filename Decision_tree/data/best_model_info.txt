@@ -1,0 +1,4 @@
+Model: Lasso
+Coefficients: [-0.08076443  0.26743015 -0.08865778 -0.1339828 ]
+Intercept: 26.103767709822815
+Best Alpha: 10000.0
