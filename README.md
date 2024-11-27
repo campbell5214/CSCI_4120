@@ -17,7 +17,7 @@ Campbella20@students.ecu.edu
 
 ## ---------------------------------------------------------------------------------------------------------
 
-## HW 6
+## HW 5
 
 ## Name and Email: ##
 Aaron Campbell
@@ -71,4 +71,44 @@ R²: -0.0049
 
 Best model: Lasso
 
-## I believe the low R squared values are because of the missing values in the data tables. 
+
+
+## HW 6 Updated
+
+---------------------------
+## Name and Email: ##
+Aaron Campbell
+Campbella20@students.ecu.edu
+--------------------
+
+Model Parameters
+
+    Linear SVM:
+        Kernel: Linear
+        C: 1
+
+    RBF SVM (Best parameters from RandomizedSearchCV):
+        Kernel: RBF
+        C: 100
+        gamma: scale
+
+    Polynomial SVM (Best parameters from RandomizedSearchCV):
+        Kernel: Polynomial
+        C: 10
+        Degree: 3
+
+Results Comparison
+
+    Linear SVM:
+        Accuracy: 96%
+        5-Fold CV: 93.05%
+
+    RBF SVM:
+        Accuracy: 98%
+        5-Fold CV: 94.49%
+
+    Polynomial SVM:
+        Accuracy: 94%
+        5-Fold CV: 94.38%
+
+RBF SVM outperforms the other kernels with the highest accuracy, while Linear SVM is slightly less accurate but still effective.
